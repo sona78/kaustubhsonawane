@@ -7,7 +7,6 @@ import { Container, Row, Col } from "shards-react";
 import Typist from 'react-text-typist';
 import { SocialIcon } from 'react-social-icons';
 
-import logo from './assets/logo.svg';
 import headshot from './assets/headshot.png';
 
 function Home(){

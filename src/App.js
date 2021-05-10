@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './App.css';
-
-import CircularProgress from '@material-ui/core/CircularProgress';
 import React, {useState} from 'react';
 import Topper from './topper.js';
 import Home from './home.js';
