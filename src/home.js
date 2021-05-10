@@ -31,11 +31,11 @@ function Home(){
             <br/><br/>
             <Row>
                 <div className = "holder">
-                    <SocialIcon className= "icon" url="https://github.com/sona78" bgColor="#eeeeee"/>
-                    <SocialIcon className= "icon" url="https://www.linkedin.com/in/kaustubh-sonawane-977a8318a/" bgColor="#eeeeee"/>
-                    <SocialIcon className= "icon" url="https://www.facebook.com/kaustubh.sona.1297" bgColor="#eeeeee"/>
-                    <SocialIcon className= "icon" url="https://www.instagram.com/kaustubhsonawane78/" bgColor="#eeeeee"/>
-                    <SocialIcon className= "icon" url="mailto: sona.om78@gmail.com" bgColor="#eeeeee"/>
+                    <SocialIcon className= "icon" url="https://github.com/sona78" target = "_blank" bgColor="#eeeeee"/>
+                    <SocialIcon className= "icon" url="https://www.linkedin.com/in/kaustubh-sonawane-977a8318a/" target = "_blank" bgColor="#eeeeee"/>
+                    <SocialIcon className= "icon" url="https://www.facebook.com/kaustubh.sona.1297" target = "_blank" bgColor="#eeeeee"/>
+                    <SocialIcon className= "icon" url="https://www.instagram.com/kaustubhsonawane78/" target = "_blank" bgColor="#eeeeee"/>
+                    <SocialIcon className= "icon" url="mailto: sona.om78@gmail.com" target = "_blank" bgColor="#eeeeee"/>
                 </div>
             </Row>
             <br/><br/>
