@@ -1,3 +1,23 @@
+html{
+  scroll-behavior: smooth;
+}
+.return{
+  right: 5%; 
+  bottom: 5%; 
+  position: fixed; 
+  font-size: 24px; 
+  padding: 16px; 
+  margin: 12px; 
+  background-color: rgb(238, 238, 238); 
+  border-radius: 16px; 
+  border: none; 
+  color: rgb(17, 17, 17); 
+  opacity: 1; 
+  transition: all 0.5s ease 0s; 
+  cursor: pointer; 
+  outline: none; 
+  z-index: 999;
+}
 .App {
   text-align: center;
 }
@@ -22,10 +42,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
