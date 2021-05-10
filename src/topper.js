@@ -5,7 +5,7 @@ import "shards-ui/dist/css/shards.min.css";
 import './topper.css';
 import logo from './assets/logo.svg';
 import React from "react";
-import { Container, Row, Col, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Dropdown, Collapse } from "shards-react";
+import { Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Collapse } from "shards-react";
 
 class Topper extends React.Component{
     constructor(props) {

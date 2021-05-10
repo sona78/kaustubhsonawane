@@ -24,12 +24,12 @@ function App(){
     return (
       <div className="App">
         <Topper/>
-        <a href = "#"><button class='return' style={{display: visible ? 'inline' : 'none'}} >🔼</button></a>
-        <a id = "home"><Home/></a>
-        <a id = "aboutme"><AboutMe/></a>
-        <a id = "projects"><Projects/></a>
-        <a id = "experience"><Experience/></a>
-        <a id = "achievements"><Achievements/></a>
+        <a href = "/#"><button class='return' style={{display: visible ? 'inline' : 'none'}} >🔼</button></a>
+        <span id = "home"><Home/></span>
+        <span id = "aboutme"><AboutMe/></span>
+        <span id = "projects"><Projects/></span>
+        <span id = "experience"><Experience/></span>
+        <span id = "achievements"><Achievements/></span>
       </div>
     );
 }

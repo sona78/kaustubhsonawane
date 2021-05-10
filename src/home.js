@@ -3,7 +3,7 @@ import "shards-ui/dist/css/shards.min.css";
 
 import './home.css';
 import {BsChevronDoubleDown} from 'react-icons/bs';
-import { Container, Row, Col } from "shards-react";
+import { Container, Row } from "shards-react";
 import Typist from 'react-text-typist';
 import { SocialIcon } from 'react-social-icons';
 
