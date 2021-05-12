@@ -1,0 +1,9 @@
+.full{
+    background-color: #111111;
+    height: 100vh;
+    display: flex;
+}
+
+.loader{
+    margin: auto;
+}

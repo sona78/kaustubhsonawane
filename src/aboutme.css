@@ -1,0 +1,9 @@
+.block{
+    background-color: #eeeeee;
+    height: 100vh;
+    box-shadow: 0px 5px 3px #555555
+}
+.head{
+    margin: auto;
+    margin-top: 5vh;
+}

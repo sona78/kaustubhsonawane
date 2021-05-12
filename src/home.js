@@ -11,6 +11,7 @@ import headshot from './assets/headshot.png';
 
 function Home(){
     return(
+        <>
         <Container className = "display" fluid>
             <br/><br/>
             <Row>
@@ -40,11 +41,13 @@ function Home(){
             </Row>
             <br/><br/>
             <Row>
-                <div className = "holder">
-                    <h1><a href = "#aboutme"><BsChevronDoubleDown/></a></h1>
-                </div>
+            <div className = "holder">
+                <h1><a href = "#aboutme"><BsChevronDoubleDown/></a></h1>
+            </div>
             </Row>
         </Container>
+
+        </>
     );
 }
 

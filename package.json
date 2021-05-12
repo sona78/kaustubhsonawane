@@ -10,6 +10,8 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
+    "antd": "^4.15.5",
+    "axios": "^0.21.1",
     "font-awesome": "^4.7.0",
     "framer": "^1.2.25",
     "heroku": "^7.52.0",
