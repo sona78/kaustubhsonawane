@@ -41,8 +41,8 @@ class Topper extends React.Component{
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink active href="#aboutme">
-                        About Me
+                    <NavLink active href="#experience">
+                        Experience
                     </NavLink>
                 </NavItem>
                 <NavItem>
@@ -50,16 +50,7 @@ class Topper extends React.Component{
                         Projects
                     </NavLink>
                 </NavItem>
-                <NavItem>
-                    <NavLink active href="#experience">
-                        Experience
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink active href="#achievements">
-                        Achievements
-                    </NavLink>
-                </NavItem>
+
             </Nav>
             </Collapse>
         </Navbar>

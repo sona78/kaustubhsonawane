@@ -5,10 +5,8 @@ import axios from 'axios';
 import React, {useState, useEffect} from 'react';
 import Topper from './topper.js';
 import Home from './home.js';
-import AboutMe from './aboutme.js';
 import Projects from './projects.js';
 import Experience from './experience.js';
-import Achievements from './achievements.js';
 import LoadingScreen from './loadingscreen.js'
 
 function App(){
@@ -46,10 +44,9 @@ function App(){
         <Topper/>
         <a href = "/#"><button class='return' style={{display: visible ? 'inline' : 'none'}} >🔼</button></a>
         <span id = "home"><Home/></span>
-        <span id = "aboutme"><AboutMe/></span>
-        <span id = "projects"><Projects/></span>
         <span id = "experience"><Experience/></span>
-        <span id = "achievements"><Achievements/></span>
+        <span id = "projects"><Projects/></span>
+        
       </div>
       ) :(
         <LoadingScreen />

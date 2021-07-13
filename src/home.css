@@ -9,10 +9,17 @@
 .holder{
     margin: auto;
 }
+.heading{
+    text-align: left;
+    color: #eeeeee;
+}
 .header{
     color: #eeeeee;
     text-align: center
 }
 .icon{
     margin: 1vh;
+}
+.sect{
+    text-align: left;
 }

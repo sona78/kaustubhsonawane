@@ -16,7 +16,7 @@ function Experience(){
             </Row>
             <Row>
                 <div className = "holder">
-                    <h1><a href = "#achievements"><BsChevronDoubleDown/></a></h1>
+                    <h1><a href = "#projects"><BsChevronDoubleDown/></a></h1>
                 </div>
             </Row>
         </Container>

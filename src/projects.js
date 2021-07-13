@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './projects.css'
-import {BsChevronDoubleDown} from 'react-icons/bs';
+import {BsChevronDoubleUp} from 'react-icons/bs';
 import { Container, Row} from "shards-react";
 
 function Projects(){
@@ -15,7 +15,7 @@ function Projects(){
             </Row>
             <Row>
                 <div className = "holder">
-                    <h1><a href = "#experience"><BsChevronDoubleDown/></a></h1>
+                    <h1><a href = "/#"><BsChevronDoubleUp/></a></h1>
                 </div>
             </Row>
         </Container>
