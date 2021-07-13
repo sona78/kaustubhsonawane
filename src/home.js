@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './home.css';
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import {BsChevronDoubleDown} from 'react-icons/bs';
 import { Button, Container, Row, Modal, ModalHeader, ModalBody } from "shards-react";
 import Typist from 'react-text-typist';
