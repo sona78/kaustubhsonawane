@@ -11,7 +11,8 @@ import LoadingScreen from './loadingscreen.js'
 
 function App(){
   const [visible, setVisible] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+  
   const [info, setInfo] = useState({});
   useEffect(() => {
     axios
@@ -25,7 +26,7 @@ function App(){
       });
 
   }, [])
-
+  
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 300){
