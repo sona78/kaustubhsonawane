@@ -8,3 +8,9 @@
     margin: auto;
     margin-top: 5vh;
 }
+.card{
+    background-color: #eeeeee;
+    min-width: 22rem;
+    max-width: 20vw;
+    margin: 1rem;
+}

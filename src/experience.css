@@ -16,8 +16,21 @@
 }
 .lift{
    background-color: #111111; 
+   display: flex;
+   margin-left: 0vh;
    color: #eeeeee; 
-   margin: 5vh;
    margin-top: 0vh;
-   width: 100vw
+
+}
+.fit{
+    display: flex;
+    background-color: #111111;
+    width: 100vw;
+    margin: 5vh;
+    flex-flow: wrap;
+}
+
+  
+.light{
+    color: #111111
 }

@@ -44,14 +44,14 @@ class Home extends React.Component{
                     </div>
                 </Row>
                 <br/>
-                <Button theme = "dark" onClick={this.toggle} >Learn more about Me!</Button>
+                <span><Button style = {{margin:'1vw'}} theme = "dark" onClick={this.toggle} >Learn more about Me!</Button></span>
                 <br/> <br/>
                 <Row>
                     <div className = "holder">
                         <SocialIcon className= "icon" url="https://github.com/sona78" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon className= "icon" url="https://www.linkedin.com/in/kaustubh-sonawane-977a8318a/" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon className= "icon" url="https://www.facebook.com/kaustubh.sona.1297" target = "_blank" bgColor="#eeeeee"/>
-                        <SocialIcon className= "icon" url="https://www.instagram.com/kaustubhsonawane78/" target = "_blank" bgColor="#eeeeee"/>
+                        <SocialIcon className= "icon" url="https://medium.com/@ksona" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon className= "icon" url="mailto: sona.om78@gmail.com" target = "_blank" bgColor="#eeeeee"/>
                     </div>
                 </Row>
@@ -66,7 +66,7 @@ class Home extends React.Component{
 
             <Modal open={open} toggle={this.toggle} centered = 'true'>
                 <ModalHeader>About Me</ModalHeader>
-                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a senior at Plano West Senior High School in Plano, Texas. I've worn a lot of hats throughout my educational career, but I consider myself a full-time learner of the wonders in the world 🌎. Outside of this pursuit of knowledge, I'm a proud pianist of 10 years 🎹, a self-titled entrepreneur 💼, and a professional arguer (debater) 📝. Welcome to my humble abode of the internet 🌟!</ModalBody>
+                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a senior at Plano West Senior High School in Plano, Texas. I'm deeply invested in giving back to community, especially through applying my skills in computer science and entrepreneurship to solve real-world problems. Outside of these pursuits, I'm a proud pianist of 10 years 🎹, a nationally-ranked debater 📝, and an aspiring researcher 🧬. Welcome to my humble abode of the internet 🌟!</ModalBody>
             </Modal>
             </>
         );

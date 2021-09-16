@@ -50,7 +50,11 @@ class Topper extends React.Component{
                         Projects
                     </NavLink>
                 </NavItem>
-
+                <NavItem>
+                    <NavLink active href="https://tinyurl.com/ResumeKaustubhSonawane" target="_blank">
+                        Resume
+                    </NavLink>
+                </NavItem>
             </Nav>
             </Collapse>
         </Navbar>
