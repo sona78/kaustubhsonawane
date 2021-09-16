@@ -6,11 +6,12 @@ import {AiOutlineGithub, AiFillPlaySquare} from 'react-icons/ai';
 import { CardColumns, Card } from "react-bootstrap"
 import { Container, Row, Button, Collapse} from "shards-react";
 
+import React from "react";
 import LungStatUI from './assets/LungStatUI.png';
 import Rhyzode from './assets/Rhyzode.png';
 import ListenIn from './assets/ListenIn.png';
 import OpenPulse from './assets/OpenPulse.png';
-import React from "react";
+
 
 class Projects extends React.Component{
     constructor(props){

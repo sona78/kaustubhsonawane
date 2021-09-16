@@ -6,6 +6,7 @@ import React, {useState, useEffect} from 'react';
 import Topper from './topper.js';
 import Home from './home.js';
 import Projects from './projects.js';
+import Footer from './footer.js';
 import Experience from './experience.js';
 import LoadingScreen from './loadingscreen.js'
 
@@ -47,7 +48,7 @@ function App(){
         <span id = "home"><Home/></span>
         <span id = "experience"><Experience/></span>
         <span id = "projects"><Projects/></span>
-        
+        <Footer/>
       </div>
       ) :(
         <LoadingScreen />
