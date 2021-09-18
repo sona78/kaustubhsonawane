@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './App.css';
-import axios from 'axios';
 import React, {useState, useEffect} from 'react';
 import Topper from './topper.js';
 import Home from './home.js';
@@ -12,10 +11,9 @@ import LoadingScreen from './loadingscreen.js'
 
 function App(){
   const [visible, setVisible] = useState(false);
-  const [loading, setLoading] = useState(false);
-  
-  const [info, setInfo] = useState({});
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
+    /*
     axios
       .get('https://gitconnected.com/v1/portfolio/sona78')
       .then((response) => {
@@ -25,6 +23,10 @@ function App(){
       .catch((error) => {
         console.log(error)
       });
+     */
+    setTimeout(function () {
+      setLoading(false)
+    }, 2000);
 
   }, [])
   
@@ -38,7 +40,6 @@ function App(){
     }
   }
   window.addEventListener('scroll', toggleVisible);
-  console.log(info)
     return (
       <>
       {loading === false ? (

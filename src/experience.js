@@ -117,7 +117,7 @@ function Experience(){
                 <div className = "lift">
                     <Col style = {{display: 'flex', alignItems: 'center'}} >
                             <h6 className = 'heading'>
-                                &gt;  Stock Investment club with <u><strong>50+ branches internationally</strong></u> educating high school students about business and markets through guest speaker events, weekly presentations, and stock market simulation competitions<br/><br/>
+                                &gt;  Stock Investment club with <u><strong>50+ branches internationally</strong></u> educating high school students about investing through weekly presentations<br/><br/>
                                 &gt;  Managed intake of new branches and outreach representatives for the organization and <u><strong>networked with industry leaders</strong></u> to improve central curriculum <br/><br/>
                                 &gt;  <u><strong>Expanded organization presence</strong></u> through grants and direct marketing to students worldwide
                             </h6>
