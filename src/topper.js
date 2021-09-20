@@ -51,7 +51,7 @@ class Topper extends React.Component{
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink active href="https://tinyurl.com/ResumeKaustubhSonawane" target="_blank">
+                    <NavLink active href="/Resume.pdf" target="_blank">
                         Resume
                     </NavLink>
                 </NavItem>
