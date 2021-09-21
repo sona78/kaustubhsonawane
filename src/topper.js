@@ -57,7 +57,7 @@ class Topper extends React.Component{
                 </NavItem>
             </Nav>
             </Collapse>
-        </Navbar>
+        </Navbar> 
         );
     }
 }
