@@ -20,4 +20,4 @@ const SEO = ({ title, description, keywords, image}) => {
       />
    );
   }
-  export default Seo;
+  export default SEO;
