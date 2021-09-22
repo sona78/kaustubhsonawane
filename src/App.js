@@ -8,7 +8,6 @@ import Projects from './projects.js';
 import Footer from './footer.js';
 import Experience from './experience.js';
 import LoadingScreen from './loadingscreen.js';
-import SEO from './seo.js';
 
 function App(){
   const [visible, setVisible] = useState(false);
