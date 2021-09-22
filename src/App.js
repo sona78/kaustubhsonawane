@@ -7,7 +7,8 @@ import Home from './home.js';
 import Projects from './projects.js';
 import Footer from './footer.js';
 import Experience from './experience.js';
-import LoadingScreen from './loadingscreen.js'
+import LoadingScreen from './loadingscreen.js';
+import SEO from './seo.js';
 
 function App(){
   const [visible, setVisible] = useState(false);
@@ -42,6 +43,7 @@ function App(){
   window.addEventListener('scroll', toggleVisible);
     return (
       <>
+      <SEO title="Personal Website for Kaustubh Sonawane" description="Kaustubh Sonawane is a driven student with a passion for computer science and entrepreneurship" keywords={["Kaustubh Sonawane", "entrepreneur", "computer science", "student"]} image="https://imgur.com/YxUTpFZ"/>
       {loading === false ? (
       <div className="App">
         <Topper/>
