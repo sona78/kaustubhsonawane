@@ -43,7 +43,6 @@ function App(){
   window.addEventListener('scroll', toggleVisible);
     return (
       <>
-      <SEO title="Personal Website for Kaustubh Sonawane" description="Kaustubh Sonawane is a driven student with a passion for computer science and entrepreneurship" keywords={["Kaustubh Sonawane", "entrepreneur", "computer science", "student"]} image="https://imgur.com/YxUTpFZ"/>
       {loading === false ? (
       <div className="App">
         <Topper/>
