@@ -43,7 +43,7 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>06/18 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img src = {LungStatUI} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="LungStat" src = {LungStatUI} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
                         </div>
                         <Card.Title>LungStat</Card.Title>
                         <Card.Body>
@@ -81,7 +81,7 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>08/20 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img src = {ListenIn} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="ListenIn" src = {ListenIn} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
                         </div>
                         <Card.Title>ListenIn</Card.Title>
                         <Card.Body>
@@ -118,7 +118,7 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>06/21 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img src = {OpenPulse} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="OpenPulse" src = {OpenPulse} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
                         </div>
                         <Card.Title>OpenPulse</Card.Title>
                         <Card.Body>
@@ -149,7 +149,7 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header>01/21 - 07/21</Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img src = {Rhyzode} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="Rhyzode" src = {Rhyzode} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
                         </div>
                         
                         <Card.Title>Rhyzode</Card.Title>
