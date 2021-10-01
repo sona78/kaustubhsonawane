@@ -25,8 +25,8 @@
 .fit{
     display: flex;
     background-color: #111111;
-    width: 90%;
-    margin: 5%;
+    width: 95%;
+    margin: 2.5%;
     flex-flow: wrap;
 }
 
