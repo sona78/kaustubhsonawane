@@ -6,8 +6,8 @@ import { Container} from "shards-react";
 
 function Footer(){
     return(
-        <Container style = {{backgroundColor: '#111111',  display: 'flex', justifyContent:'center'}} fluid>
-            <h6 className = "heading">© 2021 Kaustubh Sonawane. All rights reserved.</h6>
+        <Container style = {{backgroundColor: '#eeeeee',  display: 'flex', justifyContent:'center'}} fluid>
+            <h6><strong>© 2021 Kaustubh Sonawane. All rights reserved.</strong></h6>
         </Container>
     );
 }

@@ -29,9 +29,9 @@ class Projects extends React.Component{
     }
     render(){
     return(
-        <Container className = "area" fluid>
+        <Container className = "block" fluid>
             <Row>
-                <h1 className = "header2">Projects</h1>
+                <h1 className = "head">Projects</h1>
             </Row>
             <br/><br/>
 
@@ -43,9 +43,9 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>06/18 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img alt="LungStat" src = {LungStatUI} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="LungStat" src = {LungStatUI} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
-                        <Card.Title>LungStat</Card.Title>
+                        <Card.Title className = "fillin">LungStat</Card.Title>
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -57,11 +57,6 @@ class Projects extends React.Component{
                                 <span>
                                 <Row>
                                     LungStat is a fully-packaged machine learning web application solution for the current diagnosis process for lung cancer. Using a stack consisting of a Lambda Function API, React, and DynamoDB built within AWS, the software can locate and identify lung cancer tumors at more than a 93% accuracy. 
-                                </Row>
-                                <br/>
-                                <Row>
-                                    <u><strong>Recognition: </strong></u>
-                                    TXSEF Finalist, GENIUS Olympiad Silver Medalist, IEMS Presenter
                                 </Row>
                                 </span>
                             </div>
@@ -81,9 +76,9 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>08/20 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img alt="ListenIn" src = {ListenIn} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="ListenIn" src = {ListenIn} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
-                        <Card.Title>ListenIn</Card.Title>
+                        <Card.Title className = "fillin">ListenIn</Card.Title>
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -95,11 +90,6 @@ class Projects extends React.Component{
                                 <span>
                                 <Row>
                                 ListenIn Inc has created a cost-effective, AI-based hearing aid to address the Cocktail Party Problem. Our device reads a listener’s brainwaves to identify a single speaker in a busy crowd.  ListenIn can significantly improve conversational speech quality for hard-of-hearing users, allowing for greater adoption and utility of hearing aids worldwide.
-                                </Row>
-                                <br/>
-                                <Row>
-                                    <u><strong>Recognition: </strong></u>
-                                    2021 Diamond Challenge 2nd Place Winner (2/800+), 2021 Roundpier Entrepreneurship Competition 1st Place Winner (1/60+)
                                 </Row>
                                 </span>
                             </div>
@@ -118,9 +108,9 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header><strong>06/21 - Present</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img alt="OpenPulse" src = {OpenPulse} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="OpenPulse" src = {OpenPulse} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
-                        <Card.Title>OpenPulse</Card.Title>
+                        <Card.Title className = "fillin">OpenPulse</Card.Title>
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -149,10 +139,10 @@ class Projects extends React.Component{
                     <Card className = 'card'>
                         <Card.Header>01/21 - 07/21</Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
-                        <Card.Img alt="Rhyzode" src = {Rhyzode} style = {{width: '95%', height:'95%', margin: '2.5%'}} />
+                        <Card.Img alt="Rhyzode" src = {Rhyzode} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
                         
-                        <Card.Title>Rhyzode</Card.Title>
+                        <Card.Title className = "fillin">Rhyzode</Card.Title>
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>

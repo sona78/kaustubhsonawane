@@ -3,6 +3,7 @@ import "shards-ui/dist/css/shards.min.css";
 import './home.css';
 import React from 'react';
 import {BsChevronDoubleDown} from 'react-icons/bs';
+import { Image } from "react-bootstrap";
 import { Button, Container, Row, Modal, ModalHeader, ModalBody } from "shards-react";
 import Typist from 'react-text-typist';
 import { SocialIcon } from 'react-social-icons';
@@ -30,7 +31,7 @@ class Home extends React.Component{
                 <br/><br/>
                 <Row>
                     <div className = "holder">
-                        <img id = "headshot" src = {headshot} alt = "Kaustubh Sonawane" width = "300wv"/>
+                        <Image id = "headshot" src = {headshot} alt = "Kaustubh Sonawane" width = "300wv"/>
                     </div>
                 </Row>
                 <Row>
@@ -51,7 +52,6 @@ class Home extends React.Component{
                         <SocialIcon rel="noopener" className= "icon" url="https://github.com/sona78" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon rel="noopener" className= "icon" url="https://www.linkedin.com/in/kaustubh-sonawane-977a8318a/" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon rel="noopener" className= "icon" url="https://www.facebook.com/kaustubh.sona.1297" target = "_blank" bgColor="#eeeeee"/>
-                        <SocialIcon rel="noopener" className= "icon" url="https://medium.com/@ksona" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon className= "icon" url="mailto: sona.om78@gmail.com" target = "_blank" bgColor="#eeeeee"/>
                     </div>
                 </Row>

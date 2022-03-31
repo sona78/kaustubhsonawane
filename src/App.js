@@ -7,6 +7,7 @@ import Home from './home.js';
 import Projects from './projects.js';
 import Footer from './footer.js';
 import Experience from './experience.js';
+import Activities from './activities.js';
 
 function App(){
   const [visible, setVisible] = useState(false);
@@ -40,6 +41,7 @@ function App(){
         <a href = "/#"><button class='return' style={{display: visible ? 'inline' : 'none'}} >🔼</button></a>
         <span id = "home"><Home/></span>
         <span id = "experience"><Experience/></span>
+        <span id = "activities"><Activities/></span>
         <span id = "projects"><Projects/></span>
         <Footer/>
       </div>

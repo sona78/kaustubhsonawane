@@ -26,7 +26,7 @@ function Experience(){
                             </Col><br/>
                             <Col>
                                 
-                                    <h3 className = 'heading'>Intern to the CXO</h3>
+                                    <h3 className = 'heading'>Operations Associate</h3>
                                     <h4 className = 'heading'>05/21-Present</h4>
                                     <h5 className = 'heading'>Fiveable</h5> <br/>
                                 
@@ -36,41 +36,9 @@ function Experience(){
                 <div className = "lift">
                     <Col style = {{display: 'flex', alignItems: 'center'}} >
                             <h6 className = 'heading'>
-                            &gt;  Selected for a paid internship position from <u><strong>200+ applicants</strong></u> in a multiple round interview process <br/><br/>
+                            &gt;  Selected for a paid position from <u><strong>200+ applicants</strong></u> as the youngest member of the Experience department <br/><br/>
                             &gt;  Spearheaded projects across the startup in the <u><strong>Trust and Safety department and Experience Team</strong></u> <br/><br/>
                             &gt;  Worked directly with head executives to improve the student experience within the Fiveable platform and <u><strong>expand to new markets beyond AP exams</strong></u>
-                            </h6>
-                    </Col>
-                    
-                </div>
-                </Jumbotron>
-
-            </Row>
-
-            <Row>
-            </Row>
-
-            <Row>
-                
-                <Jumbotron className = "fit">
-                        <div style = {{width: '22rem'}}>
-                            <Col md="auto">
-                                <img  id = "logo" src = {TutorScopeLogo} alt = "TutorScope Logo" height = "100wv"/>
-                            </Col><br/>
-                            <Col>
-                                <h3 className = 'heading'>Cofounder/Director</h3>
-                                <h4 className = 'heading'>03/20-Present</h4>
-                                <h5 className = 'heading'>TutorScope</h5> <br/>
-                            </Col>
-
-                        </div>
-
-                <div className = "lift">
-                    <Col style = {{display: 'flex', alignItems: 'center'}} >
-                            <h6 className = 'heading'>
-                                &gt;  Community service organization offering free tutoring across the US for <u><strong>1500+</strong></u> students featured on <u><strong>AP News, NBC, and the Washington Post</strong></u><br/><br/>
-                                &gt;  Managed intake of new students and tutors along with <u><strong>legal and financial aspects</strong></u> of the organization <br/><br/>
-                                &gt;  <u><strong>Recognized by Representative Van Taylor</strong></u> for dedication to youth education during the COVID-19 Pandemic
                             </h6>
                     </Col>
                     
@@ -83,7 +51,7 @@ function Experience(){
                                 <img  id = "logo" src = {YSJournalLogo} alt = "YSJournal Logo" height = "100wv"/>
                             </Col><br/>
                             <Col>
-                                <h3 className = 'heading'>Resilience Executive</h3>
+                                <h3 className = 'heading'>Head of Resilience</h3>
                                 <h4 className = 'heading'>01/21-Present</h4>
                                 <h5 className = 'heading'>Young Scientists Journal</h5> <br/>
                             </Col>
@@ -126,12 +94,37 @@ function Experience(){
                 </div>
                 </Jumbotron>
 
+                <Jumbotron className = "fit">
+                        <div style = {{width: '22rem'}}>
+                            <Col md="auto">
+                                <img  id = "logo" src = {TutorScopeLogo} alt = "TutorScope Logo" height = "100wv"/>
+                            </Col><br/>
+                            <Col>
+                                <h3 className = 'heading'>Cofounder/Director</h3>
+                                <h4 className = 'heading'>03/20-Present</h4>
+                                <h5 className = 'heading'>TutorScope</h5> <br/>
+                            </Col>
+
+                        </div>
+
+                <div className = "lift">
+                    <Col style = {{display: 'flex', alignItems: 'center'}} >
+                            <h6 className = 'heading'>
+                                &gt;  Community service organization offering free tutoring across the US for <u><strong>1500+</strong></u> students featured on <u><strong>AP News, NBC, and the Washington Post</strong></u><br/><br/>
+                                &gt;  Managed intake of new students and tutors along with <u><strong>legal and financial aspects</strong></u> of the organization <br/><br/>
+                                &gt;  <u><strong>Recognized by Representative Van Taylor</strong></u> for dedication to youth education during the COVID-19 Pandemic
+                            </h6>
+                    </Col>
+                    
+                </div>
+                </Jumbotron>
+
             </Row>
 
 
             <Row>
                 <div className = "holder">
-                    <h1><a href = "#projects"><BsChevronDoubleDown/></a></h1>
+                    <h1><a href = "#activities"><BsChevronDoubleDown/></a></h1>
                 </div>
             </Row>
         </Container>

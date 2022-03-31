@@ -46,6 +46,11 @@ class Topper extends React.Component{
                     </NavLink>
                 </NavItem>
                 <NavItem>
+                    <NavLink active href="#activities">
+                        Activities
+                    </NavLink>
+                </NavItem>
+                <NavItem>
                     <NavLink active href="#projects">
                         Projects
                     </NavLink>

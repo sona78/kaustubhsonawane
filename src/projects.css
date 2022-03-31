@@ -9,8 +9,14 @@
     margin-top: 5vh;
 }
 .card{
-    background-color: #eeeeee;
+    background-color: #111111;
+    color: #eeeeee;
     min-width: 22rem;
     max-width: 20vw;
     margin: 2rem;
+}
+
+.fillin{
+    color: #eeeeee;
+    margin: 10px;
 }
