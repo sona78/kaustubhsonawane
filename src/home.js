@@ -51,8 +51,7 @@ class Home extends React.Component{
                     <div className = "holder">
                         <SocialIcon rel="noopener" className= "icon" url="https://github.com/sona78" target = "_blank" bgColor="#eeeeee"/>
                         <SocialIcon rel="noopener" className= "icon" url="https://www.linkedin.com/in/kaustubh-sonawane-977a8318a/" target = "_blank" bgColor="#eeeeee"/>
-                        <SocialIcon rel="noopener" className= "icon" url="https://www.facebook.com/kaustubh.sona.1297" target = "_blank" bgColor="#eeeeee"/>
-                        <SocialIcon className= "icon" url="mailto: sona.om78@gmail.com" target = "_blank" bgColor="#eeeeee"/>
+                        <SocialIcon className= "icon" url="mailto: kaustubh.sonawane@utexas.edu" target = "_blank" bgColor="#eeeeee"/>
                     </div>
                 </Row>
                 <br/><br/>
@@ -66,7 +65,7 @@ class Home extends React.Component{
 
             <Modal open={open} toggle={this.toggle} centered = 'true'>
                 <ModalHeader>About Me</ModalHeader>
-                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a senior at Plano West Senior High School in Plano, Texas. I'm deeply invested in giving back to community, especially through applying my skills in computer science and entrepreneurship to solve real-world problems. Outside of these pursuits, I'm a proud pianist of 10 years 🎹, a nationally-ranked debater 📝, and an aspiring researcher 🧬. Welcome to my humble abode of the internet 🌟!</ModalBody>
+                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a freshman in the Computer Science & Business Honors Program at UT Austin. I'm deeply invested in giving back to community, especially through applying my skills in computer science and entrepreneurship to solve real-world problems. Outside of these pursuits, I'm a proud pianist of 11 years 🎹 and an aspiring startup founder 👨‍💼. Welcome to my humble abode of the internet! 🌟</ModalBody>
             </Modal>
             </>
         );

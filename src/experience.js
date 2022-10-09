@@ -27,7 +27,7 @@ function Experience(){
                             <Col>
                                 
                                     <h3 className = 'heading'>Operations Associate</h3>
-                                    <h4 className = 'heading'>05/21-Present</h4>
+                                    <h4 className = 'heading'>05/21-06/22</h4>
                                     <h5 className = 'heading'>Fiveable</h5> <br/>
                                 
                             </Col>
@@ -37,8 +37,8 @@ function Experience(){
                     <Col style = {{display: 'flex', alignItems: 'center'}} >
                             <h6 className = 'heading'>
                             &gt;  Selected for a paid position from <u><strong>200+ applicants</strong></u> as the youngest member of the Experience department <br/><br/>
-                            &gt;  Spearheaded projects across the startup in the <u><strong>Trust and Safety department and Experience Team</strong></u> <br/><br/>
-                            &gt;  Worked directly with head executives to improve the student experience within the Fiveable platform and <u><strong>expand to new markets beyond AP exams</strong></u>
+                            &gt;  <u><strong>Enhanced project communication efficiency by 60%</strong></u> by overseeing migration to a new project management platform <br/><br/>
+                            &gt;  Collaborated directly with head executives to shift company focus from AP exam content to building student discussion groups
                             </h6>
                     </Col>
                     
@@ -52,7 +52,7 @@ function Experience(){
                             </Col><br/>
                             <Col>
                                 <h3 className = 'heading'>Head of Resilience</h3>
-                                <h4 className = 'heading'>01/21-Present</h4>
+                                <h4 className = 'heading'>01/21-05/22</h4>
                                 <h5 className = 'heading'>Young Scientists Journal</h5> <br/>
                             </Col>
 
@@ -77,7 +77,7 @@ function Experience(){
                             </Col><br/>
                             <Col>
                                 <h3 className = 'heading'>VP of Logistics</h3>
-                                <h4 className = 'heading'>08/20-Present</h4>
+                                <h4 className = 'heading'>08/20-05/22</h4>
                                 <h5 className = 'heading'>CASH Club Corp</h5> <br/>
                             </Col>
                         </div>
@@ -85,7 +85,7 @@ function Experience(){
                 <div className = "lift">
                     <Col style = {{display: 'flex', alignItems: 'center'}} >
                             <h6 className = 'heading'>
-                                &gt;  Stock Investment club with <u><strong>50+ branches internationally</strong></u> educating high school students about investing through weekly presentations<br/><br/>
+                                &gt;  CASH Club is a stock investment club with <u><strong>50+ branches internationally</strong></u> educating high school students about investing through weekly presentations<br/><br/>
                                 &gt;  Managed intake of new branches and outreach representatives for the organization and <u><strong>networked with industry leaders</strong></u> to improve central curriculum <br/><br/>
                                 &gt;  <u><strong>Expanded organization presence</strong></u> through grants and direct marketing to students worldwide
                             </h6>
@@ -101,7 +101,7 @@ function Experience(){
                             </Col><br/>
                             <Col>
                                 <h3 className = 'heading'>Cofounder/Director</h3>
-                                <h4 className = 'heading'>03/20-Present</h4>
+                                <h4 className = 'heading'>03/20-05/22</h4>
                                 <h5 className = 'heading'>TutorScope</h5> <br/>
                             </Col>
 
@@ -110,9 +110,9 @@ function Experience(){
                 <div className = "lift">
                     <Col style = {{display: 'flex', alignItems: 'center'}} >
                             <h6 className = 'heading'>
-                                &gt;  Community service organization offering free tutoring across the US for <u><strong>1500+</strong></u> students featured on <u><strong>AP News, NBC, and the Washington Post</strong></u><br/><br/>
-                                &gt;  Managed intake of new students and tutors along with <u><strong>legal and financial aspects</strong></u> of the organization <br/><br/>
-                                &gt;  <u><strong>Recognized by Representative Van Taylor</strong></u> for dedication to youth education during the COVID-19 Pandemic
+                                &gt;  <u><strong>Founded a free tutoring organization</strong></u> to address the lack of personalized education during COVID-19<br/><br/>
+                                &gt;  Directed student registration, signup, and session scheduling of the nonprofit organization <u><strong>with 2000+ students</strong></u><br/><br/>
+                                &gt;  Featured on AP News, the Washington Post, and NBC-DFW and <u><strong>recognized by House of Representatives</strong></u> 
                             </h6>
                     </Col>
                     

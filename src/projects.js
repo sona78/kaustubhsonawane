@@ -66,7 +66,7 @@ class Projects extends React.Component{
                                 <Row>
                                     <div style = {{display: 'flex', margin: 'auto'}}>
                                         <a href = "https://www.lungstat.com/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
-                                        <a href = "https://drive.google.com/file/d/10lAsHvdIM7tOWJGnl2nauMmMJfJGyu7K/view" target = "_blank" rel="noreferrer"><BsSearch size = '3rem'/></a>
+                                        <a href = "https://drive.google.com/file/d/1Z0olu0kkQKZ9CuU8sgcVbCKg6K6VCD9J/view?usp=sharing" target = "_blank" rel="noreferrer"><BsSearch size = '3rem'/></a>
                                     </div>
                                 </Row>
                         </Card.Body>
@@ -74,7 +74,7 @@ class Projects extends React.Component{
                     </Card>
                     
                     <Card className = 'card'>
-                        <Card.Header><strong>08/20 - Present</strong></Card.Header>
+                        <Card.Header><strong>08/20 - 05/22</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
                         <Card.Img alt="ListenIn" src = {ListenIn} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
@@ -98,7 +98,6 @@ class Projects extends React.Component{
                             <br/>
                                 <Row>
                                     <div style = {{display: 'flex', margin: 'auto'}}>
-                                        <a href = "https://listenin.info/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                         <a href = "https://www.youtube.com/watch?v=0SOuqN3godo" target = "_blank" rel="noreferrer"><AiFillPlaySquare size = '3rem'/></a>
                                     </div>
                                 </Row>
@@ -106,7 +105,7 @@ class Projects extends React.Component{
                     </Card>
 
                     <Card className = 'card'>
-                        <Card.Header><strong>06/21 - Present</strong></Card.Header>
+                        <Card.Header><strong>06/21 - 04/22</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
                         <Card.Img alt="OpenPulse" src = {OpenPulse} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
@@ -162,7 +161,7 @@ class Projects extends React.Component{
                             <br/>
                                 <Row>
                                     <div style = {{display: 'flex', margin: 'auto'}}>
-                                        <a href = "https://rhyzode.tech/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
+                                        <a href = "https://rhyzode.web.app/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                         <a href = "https://github.com/sona78/Rhyzode" target = "_blank" rel="noreferrer"><AiOutlineGithub size = '3rem'/></a>
                                     </div>
                                 </Row>
