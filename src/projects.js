@@ -65,7 +65,7 @@ class Projects extends React.Component{
                             <br/>
                                 <Row>
                                     <div style = {{display: 'flex', margin: 'auto'}}>
-                                        <a href = "https://www.lungstat.com/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
+                                        <a href = "https://master.d3l44ojvpwarms.amplifyapp.com" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                         <a href = "https://drive.google.com/file/d/1Z0olu0kkQKZ9CuU8sgcVbCKg6K6VCD9J/view?usp=sharing" target = "_blank" rel="noreferrer"><BsSearch size = '3rem'/></a>
                                     </div>
                                 </Row>
