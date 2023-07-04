@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './home.css';
 import React from 'react';
@@ -7,7 +6,6 @@ import { Image } from "react-bootstrap";
 import { Button, Container, Row, Modal, ModalHeader, ModalBody } from "shards-react";
 import Typist from 'react-text-typist';
 import { SocialIcon } from 'react-social-icons';
-
 import headshot from './assets/headshot.webp';
 
 class Home extends React.Component{
@@ -27,6 +25,8 @@ class Home extends React.Component{
         const { open } = this.state;
         return(
             <>
+            <div style={{ position: 'relative', overflow: "hidden" }}>
+
             <Container className = "display" fluid>
                 <br/><br/>
                 <Row>
@@ -61,6 +61,8 @@ class Home extends React.Component{
                 </div>
                 </Row>
             </Container>
+            </div>
+            
 
 
             <Modal open={open} toggle={this.toggle} centered = 'true'>

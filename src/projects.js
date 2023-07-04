@@ -1,10 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import './projects.css'
 import {BsChevronDoubleUp, BsSearch, BsLink45Deg} from 'react-icons/bs';
 import {AiOutlineGithub, AiFillPlaySquare} from 'react-icons/ai';
-import { CardColumns, Card } from "react-bootstrap"
-import { Container, Row, Button, Collapse} from "shards-react";
+import { CardColumns, Col, Row, Card } from "react-bootstrap"
+import { Container, Button, Collapse} from "shards-react";
 
 import React from "react";
 import LungStatUI from './assets/LungStatUI.png';
@@ -38,10 +37,10 @@ class Projects extends React.Component{
 
             <div style  = {{alignItems: 'center', justifyContent: 'center', display:'block'}}>
 
-                <CardColumns style = {{columns:'auto'}}>
-            
+                <Row>
+                    <Col>           
                     <Card className = 'card'>
-                        <Card.Header><strong>06/18 - Present</strong></Card.Header>
+                        <Card.Header><strong>06/19 - 05/22</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
                         <Card.Img alt="LungStat" src = {LungStatUI} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
@@ -64,7 +63,7 @@ class Projects extends React.Component{
 
                             <br/>
                                 <Row>
-                                    <div style = {{display: 'flex', margin: 'auto'}}>
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
                                         <a href = "https://master.d3l44ojvpwarms.amplifyapp.com" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                         <a href = "https://drive.google.com/file/d/1Z0olu0kkQKZ9CuU8sgcVbCKg6K6VCD9J/view?usp=sharing" target = "_blank" rel="noreferrer"><BsSearch size = '3rem'/></a>
                                     </div>
@@ -72,7 +71,8 @@ class Projects extends React.Component{
                         </Card.Body>
                         
                     </Card>
-                    
+                    </Col>
+                    <Col>
                     <Card className = 'card'>
                         <Card.Header><strong>08/20 - 05/22</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
@@ -97,13 +97,14 @@ class Projects extends React.Component{
 
                             <br/>
                                 <Row>
-                                    <div style = {{display: 'flex', margin: 'auto'}}>
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
                                         <a href = "https://www.youtube.com/watch?v=0SOuqN3godo" target = "_blank" rel="noreferrer"><AiFillPlaySquare size = '3rem'/></a>
                                     </div>
                                 </Row>
                         </Card.Body>    
                     </Card>
-
+                    </Col>
+                    <Col>
                     <Card className = 'card'>
                         <Card.Header><strong>06/21 - 04/22</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
@@ -128,15 +129,16 @@ class Projects extends React.Component{
 
                             <br/>
                                 <Row>
-                                    <div style = {{display: 'flex', margin: 'auto'}}>
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
                                         <a href = "https://docs.google.com/presentation/d/1dVH1CVKSn8gjADsDj8vdTK-3Z6R9WLipYORamzsMNiw/edit?usp=sharing" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                     </div>
                                 </Row>
                         </Card.Body>    
                     </Card>
-
+                    </Col>
+                    <Col>
                     <Card className = 'card'>
-                        <Card.Header>01/21 - 07/21</Card.Header>
+                        <Card.Header><strong>01/21 - 07/21</strong></Card.Header>
                         <div style = {{display: 'flex', justifyContent:'center'}}>
                         <Card.Img alt="Rhyzode" src = {Rhyzode} style = {{width: '90%', height:'90%', margin: '5%'}} />
                         </div>
@@ -159,16 +161,16 @@ class Projects extends React.Component{
                         </Collapse>
 
                             <br/>
-                                <Row>
-                                    <div style = {{display: 'flex', margin: 'auto'}}>
+                                <Row >
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
                                         <a href = "https://rhyzode.web.app/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
                                         <a href = "https://github.com/sona78/Rhyzode" target = "_blank" rel="noreferrer"><AiOutlineGithub size = '3rem'/></a>
                                     </div>
                                 </Row>
                         </Card.Body>    
                     </Card>
-
-                </CardColumns>
+                    </Col>
+                </Row>
                 </div>
                 
             <Row>
