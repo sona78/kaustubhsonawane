@@ -2,7 +2,7 @@ import "shards-ui/dist/css/shards.min.css";
 import './projects.css'
 import {BsChevronDoubleUp, BsSearch, BsLink45Deg} from 'react-icons/bs';
 import {AiOutlineGithub, AiFillPlaySquare} from 'react-icons/ai';
-import { CardColumns, Col, Row, Card } from "react-bootstrap"
+import { Col, Row, Card } from "react-bootstrap"
 import { Container, Button, Collapse} from "shards-react";
 
 import React from "react";

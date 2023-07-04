@@ -8,8 +8,6 @@ import { Container, Row, Col } from "shards-react";
 import TutorScopeLogo from './assets/TutorScopeLogo.png';
 import FiveableLogo from './assets/FiveableLogo.png';
 import WagerLogo from './assets/WagerLogo.png';
-import YSJournalLogo from './assets/YSJournal.png';
-import CASHClubLogo from './assets/CASHClubLogo.png';
 
 function Experience(){
     const [index, setIndex] = useState(0);
@@ -33,7 +31,7 @@ function Experience(){
                             </Col><br/>
                             <Col style={{justifyContent:"center", textAlign:"center"}}>
                                 
-                                    <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center", color:"#ffffff"}}><a href="https://wager.social" target="_blank" style={{color:"#ffffff"}}>Wager</a></h1>
+                                    <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center", color:"#ffffff"}}><a href="https://wager.social" rel="noreferrer" target="_blank" style={{color:"#ffffff"}}>Wager</a></h1>
                                     <h4 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>Chief Technical Officer</h4>
                                     <h5 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>10/22-Present</h5><br/>
                                 
@@ -65,7 +63,7 @@ function Experience(){
                             </Col><br/>
                             <Col>
                                 
-                                    <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}><a href="https://fiveable.me" target="_blank" style={{color:"#ffffff"}}>Fiveable</a></h1>
+                                    <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}><a href="https://fiveable.me"  rel="noreferrer" target="_blank" style={{color:"#ffffff"}}>Fiveable</a></h1>
                                     <h4 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>Operations Associate</h4>
                                     <h5 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>05/21-06/22</h5> <br/>
                                 
@@ -97,7 +95,7 @@ function Experience(){
                                 <img  id = "logo" src = {TutorScopeLogo} alt = "TutorScope Logo" height = "100wv"/>
                             </Col><br/>
                             <Col>
-                                <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}><a href="https://tutorscope.org" target="_blank" style={{color:"#ffffff"}}>TutorScope</a></h1>
+                                <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}><a href="https://tutorscope.org" rel="noreferrer" target="_blank" style={{color:"#ffffff"}}>TutorScope</a></h1>
                                 <h4 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>Cofounder/Director</h4>
                                 <h5 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>03/20-05/22</h5> <br/>
                             </Col>

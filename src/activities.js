@@ -3,16 +3,13 @@ import "shards-ui/dist/css/shards.min.css";
 import './experience.css';
 import './activities.css';
 import {BsChevronDoubleDown} from 'react-icons/bs';
-import { Card, CardColumns, Row, Col } from "react-bootstrap"
+import { Card,Row, Col } from "react-bootstrap"
 import { Container} from "shards-react";
-import InfiniteScroll from "react-infinite-scroll-component";
 
-import ScienceFair from './assets/ScienceFair.jpg'
 import Debate from './assets/Debate.JPG'
 import Entrepreneurship from './assets/Entrepreneurship.jpg'
 import Piano from './assets/Piano.jpg'
 import Hackathons from './assets/Hackathons.jpg'
-import Robotics from './assets/Robotics.png'
 import TPEO from './assets/TPEO.png'
 import Noteworthy from './assets/Noteworthy.JPG'
 
