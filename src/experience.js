@@ -8,6 +8,7 @@ import { Container, Row, Col } from "shards-react";
 import TutorScopeLogo from './assets/TutorScopeLogo.png';
 import FiveableLogo from './assets/FiveableLogo.png';
 import WagerLogo from './assets/WagerLogo.png';
+import FederalLogo from './assets/FedReserve.png';
 
 function Experience(){
     const [index, setIndex] = useState(0);
@@ -57,6 +58,39 @@ function Experience(){
                 <Carousel.Item>
 
                 <div className = "fit" style={{justifyContent:"center"}}>
+                        <div style = {{width: '30rem'}}>
+                            <Col md="auto" >
+                                <img id = "logo" src = {FederalLogo} alt = "Federal Reserve Logo" height = "100wv"/>
+                            </Col><br/>
+                            <Col>
+                                
+                                    <h1 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}><a href="https://www.dallasfed.org/"  rel="noreferrer" target="_blank" style={{color:"#ffffff"}}>Federal Reserve</a></h1>
+                                    <h4 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>National IT Intern</h4>
+                                    <h5 className = 'heading' style={{justifyContent:"center", textAlign:"center"}}>06/23-08/23</h5> <br/>
+                                
+                            </Col>
+
+                        </div>
+                <div className = "lift">
+                    <Col style = {{display: 'flex', alignItems: 'center'}} >
+                            <h6 className = 'heading'>
+                            &gt;  Coordinated the migration of the <u><strong>End User Services</strong></u> team resources to the Azure Cloud through a proof-of-concept cloud architecture <br/><br/>
+                            &gt;  Restructured the dataflow of multiple server datacenters linked to systemwide endpoints to <u><strong>reduce hardware operational costs by 70%</strong></u> <br/><br/>
+                            &gt;  Enhanced the <u><strong>data analytics capabilities</strong></u> for systems tracking of 5000+ devices using Tableau, Power BI, and Visual Basic
+                            </h6>
+                    </Col>
+
+                </div>
+
+                </div>
+                <h3 style={{color: "#ffffff", marginLeft:"95%"}}>
+                    2
+                </h3>
+
+                </Carousel.Item>
+                <Carousel.Item>
+
+                <div className = "fit" style={{justifyContent:"center"}}>
                         <div style = {{width: '22rem'}}>
                             <Col md="auto" >
                                 <img id = "logo" src = {FiveableLogo} alt = "Wager Logo" height = "100wv"/>
@@ -83,7 +117,7 @@ function Experience(){
 
                 </div>
                 <h3 style={{color: "#ffffff", marginLeft:"95%"}}>
-                    2
+                    3
                 </h3>
 
                 </Carousel.Item>
@@ -114,7 +148,7 @@ function Experience(){
                 </div>
                 </div>
                 <h3 style={{color: "#ffffff", marginLeft:"95%"}}>
-                    3
+                    4
                 </h3>
                 </Carousel.Item>
             </Carousel>

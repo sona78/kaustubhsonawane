@@ -73,7 +73,8 @@ function Activities(){
                 <strong>&gt;</strong> Created relevant solutions for Education, Medicine, Career Search, and more
                 </Card.Body>
                 <Card.Footer style = {{textAlign: "left"}}>
-                <strong>Awards:</strong> <br/>
+                <strong>Awards:</strong> <br/> 
+                <strong>&gt;</strong> Top 12 Project at HackMIT (<a href = "https://scribenotes.netlify.app">Scribe</a>) <br/>
                 <strong>&gt;</strong> 1st Place in Blockchain Track at HackTX: $7000 Grand Prize (<a href = "https://devpost.com/software/wager-r7wimn">Wager</a>) <br/>
                 <strong>&gt;</strong> 1st Place at OneHacks from 40+ submissions (<a href = "https://devpost.com/software/clip">Clip!</a>) <br/>
                 </Card.Footer>

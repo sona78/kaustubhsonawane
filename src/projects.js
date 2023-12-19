@@ -6,10 +6,12 @@ import { Col, Row, Card } from "react-bootstrap"
 import { Container, Button, Collapse} from "shards-react";
 
 import React from "react";
+import Scribe from './assets/Scribe.jpg';
 import LungStatUI from './assets/LungStatUI.png';
 import Rhyzode from './assets/Rhyzode.png';
 import ListenIn from './assets/ListenIn.png';
 import OpenPulse from './assets/OpenPulse.png';
+import WagerLogo from './assets/WagerLogo.png';
 
 
 class Projects extends React.Component{
@@ -38,6 +40,71 @@ class Projects extends React.Component{
             <div style  = {{alignItems: 'center', justifyContent: 'center', display:'block'}}>
 
                 <Row>
+                <Col>
+                    <Card className = 'card'>
+                        <Card.Header><strong>9/23 - 10/23</strong></Card.Header>
+                        <div style = {{display: 'flex', justifyContent:'center'}}>
+                        <Card.Img alt="Scribe" src = {Scribe} style = {{width: '90%', height:'90%', margin: '5%'}} />
+                        </div>
+                        <Card.Title className = "fillin">Scribe</Card.Title>
+                        <Card.Body>
+
+                        <div style = {{display: 'flex', justifyContent: 'center'}}>
+                        <Button onClick = {() => this.toggle(0)}>Learn More</Button>
+                        </div>
+
+                        <Collapse open = {this.state.collapse[0]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                            <div style = {{margin: '1vw'}} >
+                                <span>
+                                <Row>
+                                Scribe is a note-taking application that aggregates student notes from organized classes and allows students to ask questions and receive practice problems from the knowledge bank. The platform was built with a React frontend and a Python backend on lambda that uses a vector server in combination with the ada-002 embeddings LLM to draw insights.
+                                </Row>
+                                </span>
+                            </div>
+                        </Collapse>
+
+                            <br/>
+                                <Row>
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
+                                    <a href = "https://scribenotes.netlify.app/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
+                                    </div>
+                                </Row>
+                        </Card.Body>    
+                    </Card>
+                    </Col>
+                <Col>
+                    <Card className = 'card'>
+                        <Card.Header><strong>10/22 - Present</strong></Card.Header>
+                        <div style = {{display: 'flex', justifyContent:'center'}}>
+                        <Card.Img alt="Wager" src = {WagerLogo} style = {{width: '90%', height:'90%', margin: '5%'}} />
+                        </div>
+                        <Card.Title className = "fillin">Wager</Card.Title>
+                        <Card.Body>
+
+                        <div style = {{display: 'flex', justifyContent: 'center'}}>
+                        <Button onClick = {() => this.toggle(1)}>Learn More</Button>
+                        </div>
+
+                        <Collapse open = {this.state.collapse[1]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                            <div style = {{margin: '1vw'}} >
+                                <span>
+                                <Row>
+                                Wager is a social betting app that allows groups of users to bet on any event of their choosing. The mobile and web application was built using React, AWS, web3.js, and Solidity across a dual cloud and blockchain architecture.
+                                </Row>
+                                </span>
+                            </div>
+                        </Collapse>
+
+                            <br/>
+                                <Row>
+                                    <div style = {{justifyContent: "center", display: 'flex', margin: 'auto'}}>
+                                    <a href = "https://wager.social/" target = "_blank" rel="noreferrer"><BsLink45Deg size = '3rem'/></a>
+                                    </div>
+                                </Row>
+                        </Card.Body>    
+                    </Card>
+                    </Col>
+        
                     <Col>           
                     <Card className = 'card'>
                         <Card.Header><strong>06/19 - 05/22</strong></Card.Header>
@@ -48,10 +115,10 @@ class Projects extends React.Component{
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
-                        <Button onClick = {() => this.toggle(0)}>Learn More</Button>
+                        <Button onClick = {() => this.toggle(2)}>Learn More</Button>
                         </div>
 
-                        <Collapse open = {this.state.collapse[0]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                        <Collapse open = {this.state.collapse[2]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
                             <div style = {{margin: '1vw'}} >
                                 <span>
                                 <Row>
@@ -82,10 +149,10 @@ class Projects extends React.Component{
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
-                        <Button onClick = {() => this.toggle(1)}>Learn More</Button>
+                        <Button onClick = {() => this.toggle(3)}>Learn More</Button>
                         </div>
 
-                        <Collapse open = {this.state.collapse[1]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                        <Collapse open = {this.state.collapse[3]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
                             <div style = {{margin: '1vw'}} >
                                 <span>
                                 <Row>
@@ -114,10 +181,10 @@ class Projects extends React.Component{
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
-                        <Button onClick = {() => this.toggle(3)}>Learn More</Button>
+                        <Button onClick = {() => this.toggle(4)}>Learn More</Button>
                         </div>
 
-                        <Collapse open = {this.state.collapse[3]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                        <Collapse open = {this.state.collapse[4]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
                             <div style = {{margin: '1vw'}} >
                                 <span>
                                 <Row>
@@ -147,10 +214,10 @@ class Projects extends React.Component{
                         <Card.Body>
 
                         <div style = {{display: 'flex', justifyContent: 'center'}}>
-                        <Button onClick = {() => this.toggle(2)}>Learn More</Button>
+                        <Button onClick = {() => this.toggle(5)}>Learn More</Button>
                         </div>
 
-                        <Collapse open = {this.state.collapse[2]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
+                        <Collapse open = {this.state.collapse[5]} style = {{textAlign: 'left', margin: '1vw'}} className="p-3 mt-3 border rounded">
                             <div style = {{margin: '1vw'}} >
                                 <span>
                                 <Row>

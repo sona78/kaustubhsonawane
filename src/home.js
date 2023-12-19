@@ -67,7 +67,7 @@ class Home extends React.Component{
 
             <Modal open={open} toggle={this.toggle} centered = 'true'>
                 <ModalHeader>About Me</ModalHeader>
-                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a freshman in the Computer Science & Business Honors Program at UT Austin. I'm deeply invested in giving back to community, especially through applying my skills in computer science and entrepreneurship to solve real-world problems. Outside of these pursuits, I'm a proud pianist of 11 years 🎹 and an aspiring startup founder 👨‍💼. Welcome to my humble abode of the internet! 🌟</ModalBody>
+                <ModalBody className = "sect">Nice to meet you! I'm Kaustubh Sonawane, and I'm currently a student in the Computer Science & Business Honors Program at UT Austin. I'm deeply invested in giving back to community, especially through applying my skills in computer science and entrepreneurship to solve real-world problems. Outside of these pursuits, I'm a proud pianist of 11 years 🎹 and an aspiring startup founder 👨‍💼. Welcome to my humble abode of the internet! 🌟</ModalBody>
             </Modal>
             </>
         );
