@@ -1,0 +1,19 @@
+.projectCard {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.projectCard:hover {
+  /* Add your hover styles here */
+  /* For example, you can change the background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  /* You can also add transitions for a smooth animation */
+  transition: background-color 0.3s ease;
+}
+
+.cardGrid {
+  /* Add your styles for the card grid here */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

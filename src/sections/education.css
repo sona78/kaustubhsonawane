@@ -1,0 +1,7 @@
+.educationBlurb {
+  max-width: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
