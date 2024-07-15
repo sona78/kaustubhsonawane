@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Col, Collapse } from "shards-react";
+import { Col, Row, Collapse } from "shards-react";
 
 import * as S from "./styled";
 import TutorScopeLogo from "../assets/TutorScopeLogo.png";
@@ -68,20 +68,25 @@ function Experience() {
       {experiences.map((experience, i) => {
         return (
           <>
-            <Container
-              style={{ display: "flex", justifyContent: "space-between" }}
+            <Row
+              style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
               onClick={() => handleToggle(i)}>
-              <Col md={1}>
+              <Col xs={2} md={1}>
                 <img src={experience.logo} alt="Logo" height="25px" />
               </Col>
-              <Col md={2}>
+              <Col xs={5} md={2}>
                 <S.Anchor>
                   <strong>{experience.company}</strong>
                 </S.Anchor>
               </Col>
-              <Col md={7}>{experience.title}</Col>
-              <Col md={4}>{experience.dates}</Col>
-            </Container>
+
+              <Col xs={5} md={3} className="order-md-2">
+                {experience.dates}
+              </Col>
+              <Col xs={12} md={6} className="order-md-1">
+                {experience.title}
+              </Col>
+            </Row>
             <Collapse className="p-3 mt-3 " style={{ height: "100%" }} open={toggle[i]}>
               <span>{experience.description}</span>
             </Collapse>

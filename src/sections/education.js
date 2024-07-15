@@ -1,6 +1,6 @@
 import React from "react";
 import "./education.css";
-import { Container } from "shards-react";
+import { Container, Row, Col } from "shards-react";
 
 function Education() {
   const educationData = [
@@ -37,10 +37,14 @@ function Education() {
 
       {educationData.map((education, index) => (
         <Container key={index} className="educationBlurb">
-          <div style={{ display: "flex", justifyContent: "space-between", margin: 5 }}>
-            <strong>{education.school}</strong>
-            <p>{education.dates}</p>
-          </div>
+          <Row style={{ display: "flex", justifyContent: "space-between", margin: 10 }}>
+            <Col sm={8}>
+              <strong>{education.school}</strong>
+            </Col>
+            <Col sm={4}>
+              <p>{education.dates}</p>
+            </Col>
+          </Row>
 
           <ul>
             {education.activities && (

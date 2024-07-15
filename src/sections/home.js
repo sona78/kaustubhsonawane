@@ -12,7 +12,17 @@ function Home() {
   return (
     <>
       <Row>
-        <Col style={{ textAlign: "left" }} xs={8}>
+        <Col sm={12} md={4} className="text-center order-md-2">
+          <Image
+            rounded
+            id="headshot"
+            src={headshot}
+            alt="Kaustubh Sonawane"
+            width="300wv"
+            style={{ marginBottom: 10 }}
+          />
+        </Col>
+        <Col style={{ textAlign: "left" }} sm={12} md={8} className="order-md-1">
           <text>
             I'm a student at UT Austin majoring in{" "}
             <S.Anchor href="https://csb.utexas.edu/" target="_blank">
@@ -47,9 +57,6 @@ function Home() {
               kaustubh.sonawane@utexas.edu
             </S.Anchor>
           </text>
-        </Col>
-        <Col xs={4}>
-          <Image rounded id="headshot" src={headshot} alt="Kaustubh Sonawane" width="300wv" />
         </Col>
       </Row>
       <br />

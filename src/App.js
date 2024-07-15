@@ -8,11 +8,15 @@ import Projects from "./sections/projects.js";
 import Education from "./sections/education.js";
 import Header from "./sections/header.js";
 import Footer from "./sections/footer.js";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 function App() {
+  const matches = useMediaQuery("(max-width:768px)");
   return (
     <>
-      <div className="App" style={{ marginLeft: "20%", marginRight: "20%" }}>
+      <div
+        className="App"
+        style={{ marginLeft: matches ? "5%" : "20%", marginRight: matches ? "5%" : "20%" }}>
         <Header />
         <span id="home">
           <Home />
