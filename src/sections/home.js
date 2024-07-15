@@ -6,7 +6,7 @@ import * as S from "./styled";
 
 const interests = ["Systems Development", "Intuitive Product Design", "NLP"];
 
-const books = ["Superintelligence by Nick Bostrom", "Wuthering Heights by Emily Bronte"];
+const books = ["Superintelligence by Nick Bostrom", "Wuthering Heights by Emily Brontë"];
 
 function Home() {
   return (
