@@ -12,8 +12,9 @@ function Education() {
         "Data Structures & Algorithms",
         "Operating Systems",
         "Computer Architecture",
-        "Statistics & Data Science",
         "Virtualization",
+        "Machine Learning",
+        "Systems for ML/Big Data"
       ],
       activities: [
         "Texas Product Engineering Organization",
