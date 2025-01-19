@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 import { Col, Row } from "shards-react";
 import * as S from "./styled";
 
-const interests = ["Systems Development", "Intuitive Product Design", "NLP"];
+const interests = ["Systems Development", "Intuitive Product Design", "Natural Language Processing"];
 
 const books = ["Superintelligence by Nick Bostrom", "Wuthering Heights by Emily Brontë"];
 
