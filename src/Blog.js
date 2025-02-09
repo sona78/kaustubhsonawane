@@ -26,7 +26,7 @@ const Blog = () => {
 
   const [password, setPassword] = useState("");
 
-  return password.toLowerCase() !== "abroad" && window.location.pathname == "/blog/" ? (
+  return password.toLowerCase() !== "abroad" && window.location.pathname === "/blog/" ? (
     <Password password={password} setPassword={setPassword} />
   ) : (
     <>

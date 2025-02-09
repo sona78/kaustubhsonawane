@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Row, Col, FormInput, Button } from "shards-react";
+import React from "react";
+import { Container, Row, Col, FormInput } from "shards-react";
 
 const Password = (props) => {
   const [password, setPassword] = [props.password, props.setPassword];
