@@ -3,6 +3,8 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import Post from "./Post";
 import Display from "./Display";
 import Header from "./sections/header";
+import Password from "./Password";
+import { useState } from "react";
 
 function getImagePaths(directory) {
   let posts = [];
@@ -22,7 +24,11 @@ const Blog = () => {
   const matches = useMediaQuery("(max-width:768px)");
   const post = window.location.pathname.replace("/blog/post/", "");
 
-  return (
+  const [password, setPassword] = useState("");
+
+  return password !== "Abroad" && window.location.pathname == "/blog/" ? (
+    <Password password={password} setPassword={setPassword} />
+  ) : (
     <>
       <div
         className="App"
