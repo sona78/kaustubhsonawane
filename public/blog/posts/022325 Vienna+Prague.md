@@ -1,5 +1,5 @@
 ## Prague + Vienna
-#### 2/25/25
+#### 2/23/25
 
 I love traveling. I think I had an idea of how much I enjoyed the newness of exploration, but I didn't realize how much the minute things of seeing a new city bring joy. After the week alone and the week of orientation, I, along with a few friends from UT, decided to go to Vienna as our first weekend exploration. Even though it was only a 3 hour bus ride away, it felt like relearning from the ground up. From the language change to German to the architecture style that feels like a classical-era piece come to life, just walking around the city through the old and new was my favorite part. 
 
