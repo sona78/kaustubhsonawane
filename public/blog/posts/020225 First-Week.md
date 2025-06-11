@@ -1,6 +1,6 @@
 ## Welcome to the blog!
 
-#### 2/9/25
+#### 2/2/25
 
 Hi y'all! I'm starting a blog while I study abroad in Budapest, Hungary (surprise!). Everything up until this point had to be well planned out, but the entire journey to get here felt surprisingly chaotic. From choosing a destination that felt foreign but still somehow close, to making sure my life would be properly wrapped up before a hiatus from everything normal, to the final touches on planning a spontaneous but structured 4 months ahead. I'm still trying to figure out the split between the two because spontaneous has often meant unstructured and structured has often meant overthought. With so much open time over the next four months, I'm trying to find some semblance of balance and direction.
 
