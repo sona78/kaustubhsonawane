@@ -1,5 +1,5 @@
 ## Edinburgh
-#### 4/1/25
+#### 3/2/25
 
 It has been quite a while since this trip, but it deserves a post to remember it. This semester has been full of really cool new experiences. I have loved the process of learning a new place from the ground up, making connections with new people starting from no shared experiences, and seeing my assumptions about the world tested so often. But even with this joie de vivre, I miss the comfort of home. I moved houses in this past year, and for a time I had this strange experience of relearning what home was. Little things like trying to figure out the light switches, having to unpack and reorganize, and even work around the house not being able to find anything in the kitchen was quite jarring. Especially as I approach the end of college, between Austin and Dallas, each place I live feels temporary. But the people in my life are anything but that. Having this trip with some of my best friends reminded me that home is with the people I love as cliche as it sounds. I admit that I haven't been the best at maintaining relationships, but treating people as the only constant is a mindset I'm trying to grow into.
 
