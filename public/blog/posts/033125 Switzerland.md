@@ -26,14 +26,6 @@ Grindelwald was this beautiful village in the valley of these gigantic mountains
 </figure>
 <p></p>
 
-Saturday was also a great day filled with hiking at Harder Klum in Interlaken and another trail in Wengen (other mountain village). The days felt more significant surrounded by nature, having a clear start and end and being filled with so much change. Coming down the mountain on the Wengen trail was such a peaceful time as the clouds lowered once again, the sun set and the colors of the surrounding greenery changed. On the mountains, nature felt like a perfect system, but for once I didn’t feel like an intruder, just a silent observer.
-
-<figure>
-<img src="https://github.com/user-attachments/assets/cb8aefed-65c8-4604-8f94-cc515002de26"  alt="Image" style="width:100%">
-<figcaption>Prettiest Place I've ever been</figcaption>
-</figure>
-<p></p>
-
 
 Saturday was also a great day filled with hiking at Harder Klum in Interlaken and another trail in Wengen (other mountain village). The days felt more significant surrounded by nature, having a clear start and end and being filled with so much change. Coming down the mountain on the Wengen trail was such a peaceful time as the clouds lowered once again, the sun set and the colors of the surrounding greenery changed. On the mountains, nature felt like a perfect system, but for once I didn’t feel like an intruder, just a silent observer.
 
