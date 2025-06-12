@@ -38,8 +38,8 @@ Saturday was also a great day filled with hiking at Harder Klum in Interlaken an
 Sunday was one of the best days of my life, after waking up planning on going up to Grindelwald first, a cliff walk and cable car excursion, we were stopped by the clouds. Trying to make the most of the rideup, we decided to wait it out until the sun got a bit brighter and grabbed breakfast at the grocery store. What was supposed to be a quick check at the train station for getting tickets turned into us getting a pass for all of the mountains in the area for a fraction of the cost. We spent the day hiking in the total alpine regions at the top of the mountains, tobogganing down thousands of feet, and seeing the prettiest places I’d ever seen, all while the sun was out and the sky was clear. One of the features was Mannlichen, when the fog cleared at the top and we could see 5 peaks lit up in the sun in the distance at such staggering scales. 
 
 <figure>
-<img src="https://github.com/user-attachments/assets/cb8aefed-65c8-4604-8f94-cc515002de26"  alt="Image" style="width:100%">
-<figcaption>Prettiest Place I've ever been</figcaption>
+<img src="https://github.com/user-attachments/assets/fa0f7508-3452-465d-b93d-60c05610148d"  alt="Image" style="width:100%">
+<figcaption>I wish I could ski but this was pretty fun</figcaption>
 </figure>
 <p></p>
 
