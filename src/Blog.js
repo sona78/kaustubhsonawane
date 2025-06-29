@@ -44,6 +44,7 @@ const Blog = () => {
               thoughts with my closest friends as I study abroad this semester. Thanks for taking a
               look!
             </div>
+
             <Display images={imagePaths} />
           </>
         )}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Col, Row, Collapse } from "shards-react";
 
 import * as S from "./styled";
@@ -7,8 +7,16 @@ import FiveableLogo from "../assets/FiveableLogo.png";
 import WagerLogo from "../assets/WagerLogo.png";
 import FederalLogo from "../assets/FedReserve.png";
 import JusticeTextLogo from "../assets/JusticeTextLogo.jpg";
+import AmazonLogo from "../assets/AmazonLogo.png";
 
 const experiences = [
+  {
+    logo: AmazonLogo,
+    company: "Amazon",
+    title: "Software Development Engineer Intern",
+    dates: "Jun 2025 - Aug 2025",
+    description: "Infrastructure team supporting Amazon's consumer data processing & analytics",
+  },
   {
     logo: JusticeTextLogo,
     company: "JusticeText",
@@ -18,19 +26,19 @@ const experiences = [
       "Seed-stage startup building an AI platform for public defenders to efficiently review police bodycam footage",
   },
   {
+    logo: WagerLogo,
+    company: "Wager",
+    title: "Chief Technical Officer and Cofounder",
+    dates: "Oct 2022 - Apr 2024",
+    description: "Startup developing a Web3 peer-to-peer social betting platform for any event",
+  },
+  {
     logo: FederalLogo,
     company: "Federal Reserve",
     title: "National IT Intern",
     dates: "Jun 2023 - Aug 2023",
     description:
       "National bank of the United States managing cash flow across 12 districts and 10,000+ financial institutions",
-  },
-  {
-    logo: WagerLogo,
-    company: "Wager",
-    title: "Chief Technical Officer and Cofounder",
-    dates: "Oct 2022 - Apr 2024",
-    description: "Startup developing a Web3 peer-to-peer social betting platform for any event",
   },
   {
     logo: FiveableLogo,
