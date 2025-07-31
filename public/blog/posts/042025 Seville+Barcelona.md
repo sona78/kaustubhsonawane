@@ -1,4 +1,4 @@
-## Seville+Barcelona
+## Seville + Barcelona
 
 #### 4/20/25
 
