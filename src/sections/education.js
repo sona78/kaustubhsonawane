@@ -14,13 +14,14 @@ function Education() {
         "Computer Architecture",
         "Virtualization",
         "Machine Learning",
-        "Systems for ML/Big Data"
+        "Systems for ML/Big Data",
+        "Natural Language Processing",
       ],
       activities: [
         "Texas Product Engineering Organization",
         "Noteworthy A Cappella",
         "Texas Ballroom",
-        "CSBA",
+        "Computer Science & Business Association",
       ],
     },
     {

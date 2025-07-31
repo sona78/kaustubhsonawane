@@ -7,6 +7,7 @@ import FiveableLogo from "../assets/FiveableLogo.png";
 import WagerLogo from "../assets/WagerLogo.png";
 import FederalLogo from "../assets/FedReserve.png";
 import JusticeTextLogo from "../assets/JusticeTextLogo.jpg";
+import TrueVenturesLogo from "../assets/TrueVenturesLogo.jpeg";
 import AmazonLogo from "../assets/AmazonLogo.png";
 
 const experiences = [
@@ -18,9 +19,17 @@ const experiences = [
     description: "Infrastructure team supporting Amazon's consumer data processing & analytics",
   },
   {
+    logo: TrueVenturesLogo,
+    company: "True Ventures",
+    title: "True Fellow",
+    dates: "Jun 2024 - Aug 2024",
+    description:
+      "People-first venture capital firm investing in AI-native founders at the earliest stages",
+  },
+  {
     logo: JusticeTextLogo,
     company: "JusticeText",
-    title: "Software Engineering Intern / True Fellow",
+    title: "Software Engineering Intern",
     dates: "Jun 2024 - Aug 2024",
     description:
       "Seed-stage startup building an AI platform for public defenders to efficiently review police bodycam footage",
