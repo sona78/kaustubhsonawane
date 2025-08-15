@@ -6,11 +6,17 @@ import { Card, CardTitle, CardBody } from "shards-react";
 
 const projects = [
   {
+    title: "Lynx",
+    description: "Tool for live code visualization and multi-agent editing",
+    stack: "Language Servers, Agent Coordination, VS Code Extension",
+    link: "https://github.com/sona78/LSP-Parser",
+  },
+  {
     title: "Clarity",
     description:
       "AI-generated career plans: predict the future of an industry and create actionable steps for upskilling",
     stack: "Flask, Prompt Engineering, Exa, React, Supabase",
-    link: "https://github.com/sona78/Clarity",
+    link: "https://clarity-chi.vercel.app",
   },
   {
     title: "Storybook",
